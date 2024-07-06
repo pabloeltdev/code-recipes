@@ -9,7 +9,7 @@ This project is meant to practice courses and concepts, mainly the following:
 
 ## Objetives
 - [ ] Complete Github Foundations
-    - [ ] Module 1 and 2
+    - [x] Module 1 and 2
     - [ ] Modules 3, 4, 5 and 6
     - [ ] Modules 7 and 8
     - [ ] Modules 9 and 10
