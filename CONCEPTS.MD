@@ -24,3 +24,16 @@ Enterprise platform, AI, Collaboration, Productivity, Security and Scale.
 
 Gist: A git repo used to share snippets.
 
+Github accounts:
+- Personal
+- Enterprise
+- Organization
+
+Enterprise are linked to a organization or personal account
+
+Plans:
+- Free
+- Pro
+- Team
+- Enterprise
+
