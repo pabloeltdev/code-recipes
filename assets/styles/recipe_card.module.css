@@ -17,3 +17,7 @@
 .more {
   @apply flex justify-center items-center aspect-square w-8 bg-transparent border-2 border-green-900
 }
+
+.open {
+  @apply bg-blue-900 p-2 rounded-lg
+}

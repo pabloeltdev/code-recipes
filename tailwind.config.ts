@@ -8,7 +8,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        blackrussian: '#030426'
+        blackrussian: '#030426',
+        cetaceanblue: '#001440',
       }
     }
   },

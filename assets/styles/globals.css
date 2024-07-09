@@ -7,11 +7,15 @@ body {
 }
 
 header {
-  @apply bg-blue-950 h-14 flex justify-center
+  @apply bg-cetaceanblue h-14 flex justify-center shadow-sm shadow-black
 }
 
 nav {
-  @apply flex gap-2 items-center
+  @apply flex gap-4 items-center
+}
+
+nav a {
+  @apply border-b-2
 }
 
 main {
@@ -19,5 +23,9 @@ main {
 }
 
 footer {
-  @apply flex w-full h-14 bg-blue-950 sticky bottom-0
+  @apply flex w-full h-14 bg-blue-950 justify-center items-center
+}
+
+a {
+  @apply font-bold
 }

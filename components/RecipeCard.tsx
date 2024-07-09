@@ -12,7 +12,7 @@ export default function RecipeCard() {
           <span className={styles.label}>Design</span>
           <span className={styles.more}>...</span>
         </div>
-        <span>Open</span>
+        <span className={styles.open}>Open</span>
       </div>
     </div>
   );
