@@ -19,5 +19,5 @@
 }
 
 .open {
-  @apply bg-blue-900 p-2 rounded-lg
+  @apply flex items-center bg-blue-900 p-2 rounded-lg
 }
