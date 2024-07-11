@@ -11,7 +11,7 @@ This project is meant to practice courses and concepts, mainly the following:
 - [ ] Complete Github Foundations
     - [x] Module 1 and 2
     - [x] Modules 3, 4, 5 and 6
-    - [ ] Modules 7 and 8
+    - [x] Modules 7 and 8
     - [ ] Modules 9 and 10
     - [ ] Modules 11, 12 and 13
     - [ ] Modules 14 and 15

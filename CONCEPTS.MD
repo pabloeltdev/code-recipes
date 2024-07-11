@@ -37,3 +37,33 @@ Plans:
 - Team
 - Enterprise
 
+
+#### Contributing to open source projects
+
+Important files
+
+
+
+LICENSE, README, CONTRIBUTING and CODE_OF_CONDUCT
+
+
+Checklist
+Does it have a license?
+Are issues and pull request discussions used actively by maintainers and contributors?
+Does the project use labels like help wanted or good first issue for newcomers?
+Does the project have a code of conduct?
+Does the project have clear Contributing Guidelines?
+
+
+#### Guide to contribute when there is no documentation
+To write a good commit message, and subsequently your pull request, follow these practices:
+
+- Your Git commit message subject line should complete the following sentence:
+  - If applied, this commit will <your subject line here>.
+- Include a succinct description of the change by using the imperative, present tense. For example, use add not added or adds.
+- Limit your subject line to 50 characters.
+- Start with a capital letter, and don't end with a period (.).
+- You can use emojis in your subject line and @mention other GitHub users, but not everyone is a fan of such frivolity.
+
+For the body of your message and pull request, continue to use present tense. Make sure to include the motivation for the change. Contrast your change with the previous behavior. Use the space at your disposal to explain the what and why versus the how.
+
