@@ -1,9 +1,10 @@
 import styles from "@/assets/styles/recipe_card.module.css";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
+import Card from "@/components/ui/Card";
 export default function RecipeCard() {
   return (
-    <div className={styles.root}>
+    <Card>
       <div>
         <div className="title">Composition</div>
       </div>
@@ -17,6 +18,6 @@ export default function RecipeCard() {
           <Icon fontSize={20} icon="heroicons:code-bracket-solid" />
         </div>
       </div>
-    </div>
+    </Card>
   );
 }
