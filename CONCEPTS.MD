@@ -67,3 +67,46 @@ To write a good commit message, and subsequently your pull request, follow these
 
 For the body of your message and pull request, continue to use present tense. Make sure to include the motivation for the change. Contrast your change with the previous behavior. Use the space at your disposal to explain the what and why versus the how.
 
+
+#### Inner source
+You can configure GitHub repositories with three levels of visibility. Users who don't meet the visibility requirement see "not found" pages when they try to access your repository. The levels are:
+
+Public repositories are visible to everyone. Use this visibility for projects that are truly open source and offer access to people inside and outside of your organization.
+Internal repositories are only visible to members of the organization that owns them. Use this visibility for InnerSource projects.
+Private repositories are only visible to the owner and any teams or individuals they add. Use this visibility for projects that only specific users and groups should have access to.
+Once you've established repository visibility, you can configure permissions on an individual or team basis. There are five permission levels:
+
+Read level is recommended for non-code contributors who want to view or discuss the project.
+Triage level is recommended for contributors who need to proactively manage issues and pull requests without write access.
+Write level is recommended for contributors who actively push to the project.
+Maintain level is recommended for project managers who need to manage the repository without access to sensitive or destructive actions.
+Admin level is recommended for people who need full access to the project, including sensitive and destructive actions like managing security or deleting a repository.
+
+#### Admin
+
+Repository permissions
+- Read, Triage, Write, Maintain, Admin
+
+You can use a repo as template in the settings tab
+
+Team permissions
+- Member, Maintainer
+
+Organization permissions
+Owner, Member, Moderator, Billing manager, Security managers, Outside collaborator
+
+Enterprise permissions
+Owner, Member, Billing manager
+
+#### Authentication and authorization
+- SAML: Security Assertion Markup Language, a way to exchange data about security.
+- SSO: A centralized login to access private resources:
+- IdP: Identity Provider. An IdP can supply a SAML SSO user management system to 
+allow better control of user accesses.
+- SCIM: System for Cross-domain Identity Management. A way to sync two user management systems.
+Github offers SCIM to sync security data from Github and an IdP.
+
+Github officially supports Microsoft Entra and and Okta.
+
+
+

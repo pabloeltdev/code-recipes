@@ -12,8 +12,8 @@ This project is meant to practice courses and concepts, mainly the following:
     - [x] Module 1 and 2
     - [x] Modules 3, 4, 5 and 6
     - [x] Modules 7 and 8
-    - [ ] Modules 9 and 10
-    - [ ] Modules 11, 12 and 13
+    - [x] Modules 9 and 10
+    - [x] Modules 11, 12 and 13
     - [ ] Modules 14 and 15
 - [ ] Composition Pattern 
 - [ ] Improve my Neovim workflow
