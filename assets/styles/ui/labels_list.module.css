@@ -1,0 +1,11 @@
+.labelsBox {
+  @apply flex gap-x-1
+}
+
+.label, .more {
+  @apply bg-teal-900 rounded-lg p-1
+}
+
+.more {
+  @apply flex justify-center items-center aspect-square w-8 bg-transparent border-2 border-green-900
+}
