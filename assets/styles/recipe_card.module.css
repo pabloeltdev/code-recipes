@@ -5,7 +5,3 @@
 .footer {
   @apply flex justify-between items-end gap-x-4
 }
-
-.open {
-  @apply flex items-center bg-blue-900 p-2 rounded-lg
-}
