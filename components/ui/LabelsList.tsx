@@ -1,10 +1,15 @@
 import styles from "@/assets/styles/ui/labels_list.module.css";
 
-export default function LabelsList() {
+type LabelListProps = {
+  labels: string[];
+};
+
+export default function LabelsList({ labels }: LabelListProps) {
   return (
     <div className={styles.labelsBox}>
-      <span className={styles.label}>React</span>
-      <span className={styles.label}>Design</span>
+      {labels.map((label) => (
+        <span className={styles.label}>{label}</span>
+      ))}
       <span className={styles.more}>...</span>
     </div>
   );

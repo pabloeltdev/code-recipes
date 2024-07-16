@@ -19,7 +19,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
         <div className="title">{title}</div>
       </div>
       <div className={styles.footer}>
-        <LabelsList />
+        <LabelsList labels={labels} />
         <Button>
           <Icon fontSize={20} icon="heroicons:code-bracket-solid" />
         </Button>
