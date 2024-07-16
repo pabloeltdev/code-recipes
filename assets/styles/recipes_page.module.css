@@ -1,0 +1,3 @@
+.recipesContainer {
+  @apply container flex flex-wrap basis-1/3
+}
