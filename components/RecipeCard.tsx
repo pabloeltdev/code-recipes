@@ -5,12 +5,18 @@ import styles from "@/assets/styles/recipe_card.module.css";
 import Card from "@/components/ui/Card";
 import LabelsList from "@/components/ui/LabelsList";
 import Button from "@/components/ui/Button";
+import { Recipe } from "@/types/recipe";
 
-export default function RecipeCard() {
+type RecipeCardProps = {
+  recipe: Recipe;
+};
+
+export default function RecipeCard({ recipe }: RecipeCardProps) {
+  const { title, labels } = recipe;
   return (
     <Card>
       <div>
-        <div className="title">Composition</div>
+        <div className="title">{title}</div>
       </div>
       <div className={styles.footer}>
         <LabelsList />
