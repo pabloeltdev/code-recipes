@@ -1,3 +1,11 @@
 .recipesContainer {
-  @apply container flex flex-wrap basis-1/3
+  @apply flex flex-wrap basis-1/3
+}
+
+.searchBarContainer {
+  @apply flex justify-center
+}
+
+.searchBar {
+  @apply w-64
 }
