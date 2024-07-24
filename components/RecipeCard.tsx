@@ -6,6 +6,7 @@ import Card from "@/components/ui/Card";
 import LabelsList from "@/components/ui/LabelsList";
 import Button from "@/components/ui/Button";
 import { Recipe } from "@/types/recipe";
+import Link from "next/link";
 
 type RecipeCardProps = {
   recipe: Recipe;
@@ -20,9 +21,11 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
       </div>
       <div className={styles.footer}>
         <LabelsList labels={labels} />
-        <Button>
-          <Icon fontSize={20} icon="heroicons:code-bracket-solid" />
-        </Button>
+        <Link href={recipe.url} target="_blank" rel="noreferrer noopener">
+          <Button>
+            <Icon fontSize={20} icon="heroicons:code-bracket-solid" />
+          </Button>
+        </Link>
       </div>
     </Card>
   );
