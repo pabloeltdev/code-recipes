@@ -3,7 +3,7 @@
 }
 
 .searchBarContainer {
-  @apply flex justify-center
+  @apply flex justify-center mt-4
 }
 
 .searchBar {
